@@ -2,7 +2,7 @@ const jsxapi = require('jsxapi');
 
 //create the jsxapi connection object
 // if you host your content on https, use wss:// instead
-const xapi = jsxapi.connect("ws://{device_ip}", {
+const xapi = jsxapi.connect("ws://10.25.219.135", {
     username: 'integrator',
     password: 'integrator'
 });
