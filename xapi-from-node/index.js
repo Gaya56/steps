@@ -3,8 +3,8 @@ const jsxapi = require('jsxapi');
 //create the jsxapi connection object
 // if you host your content on https, use wss:// instead
 const xapi = jsxapi.connect("ws://10.25.219.135", {
-    username: 'integrator',
-    password: 'integrator'
+    username: 'gayam',
+    password: 'Calgary2024!'
 });
 
 xapi.on('error', (err) => {  //handler for any errors encountered with jsxapi
